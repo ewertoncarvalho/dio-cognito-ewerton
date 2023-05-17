@@ -110,10 +110,10 @@ Copie a url para inserir no postmam
 - Add Request -> Method POST -> Copiar o endpoint gerado no API Gateway
 - Body -> Raw -> JSON -> Adicionar o seguinte body
 
-`{
+{
   "id": "003",
   "price": 600
-}`
+},
 
  Send
 

@@ -49,3 +49,31 @@ IAM -> Roles -> Role criada no passo anterior -> Permissions -> Add inline polic
 
 ![Untitled 17](https://github.com/ewertoncarvalho/dio-cognito-ewerton/assets/49257517/7bc590ac-72a7-49e7-93f6-168b4c34db4c)
 
+Service - DynamoDB -> Manual actions -> add actions -> putItem
+
+![Untitled 18](https://github.com/ewertoncarvalho/dio-cognito-ewerton/assets/49257517/e9f7b0d7-230a-4141-8df6-31de9b57287c)
+
+![Untitled 19](https://github.com/ewertoncarvalho/dio-cognito-ewerton/assets/49257517/8fa7f307-af16-4301-9705-ad795a4f9370)
+
+Resources -> Add arn -> Selecionar o arn da tabela criada no DynamoDB -> Add
+
+![Untitled 20](https://github.com/ewertoncarvalho/dio-cognito-ewerton/assets/49257517/ed58f20e-13bd-4312-a530-90aae3d778e2)
+
+![Untitled 21](https://github.com/ewertoncarvalho/dio-cognito-ewerton/assets/49257517/e6fa566f-0d28-4670-9c01-abadc5fb4f75)
+
+Review policy -> Name [lambda_dynamodb_putItem_policy] -> Review policy → Create policy
+
+![Untitled 22](https://github.com/ewertoncarvalho/dio-cognito-ewerton/assets/49257517/05605037-5eeb-4720-ba95-f6fc1414238e)
+
+Criar nome da policy → putitem_policy
+
+![Untitled 23](https://github.com/ewertoncarvalho/dio-cognito-ewerton/assets/49257517/680b8338-e846-4674-b5a5-e65d991bad64)
+
+### Integrando o API Gateway com o Lambda backend
+
+- API Gateway Dashboard -> Selecionar a API criada -> Resources -> Selecionar o resource criado -> Action -> Create method - POST
+- 
+
+
+
+
